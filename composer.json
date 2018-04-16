@@ -1,0 +1,29 @@
+{
+    "name": "irim/text",
+    "description": "PHP class for formatting and editing text",
+    "type": "yii2-component",
+    "keywords": ["yii2","extension","widget","text","formated","change","lower","upper","title","rim"],
+    "license": "MIT",
+    "minimum-stability" : "stable",
+	"version":"1.0.0",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/iRim/text"
+    },
+    "authors": [
+        {
+            "name": "Rim",
+            "email": "rusenko.i@ya.ru",
+            "homepage": "https://rim.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "irim\\Text\\": ""
+        }
+    }
+}
